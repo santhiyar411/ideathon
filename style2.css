@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: lightblue;
+    color: white;
+    padding: 15px;
+}
+.content {
+    background-image: url('content.png');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: darkblue;
+    border-radius: 5px;
+}

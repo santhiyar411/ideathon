@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    background-image: url('sign.jpg');
+    background-size: cover;
+    background-position: center;
+    height:100vh
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    border:groove black;
+    border-radius: 20px;
+}
+
+input, button {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
